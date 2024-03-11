@@ -1,5 +1,5 @@
 {% set name = "climb-onyx-client" %}
-{% set version = "4.0.0" %}
+{% set version = "4.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/climb-onyx-client-{{ version }}.tar.gz
-  sha256: fc551e324f782c2211e14ac570f699a0fc364b79db31bc006e183bb1c3bbbb63
+  sha256: 5a12868a8c0f52795c6f3728de194328b44d61cc48e87d896f61e4d3a4f1f9f4
 
 build:
   entry_points:
