@@ -39,8 +39,9 @@ test:
 about:
   home: https://github.com/CLIMB-TRE/onyx-client
   summary: Client program for interacting with Onyx.
-  license: GPL-3.0
+  license: GPL-2.0-or-later
   license_file: LICENSE
+  license_family: GPL
 
 extra:
   recipe-maintainers:
