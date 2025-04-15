@@ -18,7 +18,7 @@ build:
 
 requirements:
   host:
-    - python=3.7
+    - python =3.7
     - pip
     - setuptools
   run:
@@ -34,7 +34,7 @@ test:
     - pip check
     - onyx --help
   requires:
-    - python=3.7
+    - python =3.7
     - pip
 
 about:
