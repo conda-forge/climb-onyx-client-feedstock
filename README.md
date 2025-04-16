@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/climb-onyx-clie
 
 Home: https://github.com/CLIMB-TRE/onyx-client
 
-Package license: GPL-3.0
+Package license: GPL-2.0-or-later
 
 Summary: Client program for interacting with Onyx.
 
