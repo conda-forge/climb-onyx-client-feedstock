@@ -42,8 +42,8 @@ test:
 about:
   home: https://github.com/CLIMB-TRE/onyx-client
   summary: Client program for interacting with Onyx.
-  license: GPL-2.0-or-later
-  license_family: GPL
+  license: MIT
+  license_family: MIT
   license_file: LICENSE
 
 extra:
