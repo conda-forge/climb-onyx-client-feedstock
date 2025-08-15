@@ -1,5 +1,5 @@
 {% set name = "climb-onyx-client" %}
-{% set version = "4.8.0" %}
+{% set version = "4.8.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: b4ada6e3c6693721fd9a22d929f904019582b0ef053b417b97335ff7b8faeee6
+  sha256: 0203fdf60add0c8c833e256bdbe083fa9a9c3b19d4898f6207e520822fa1f66c
 
 build:
   entry_points:
@@ -42,8 +42,8 @@ test:
 about:
   home: https://github.com/CLIMB-TRE/onyx-client
   summary: Client program for interacting with Onyx.
-  license: GPL-2.0-or-later
-  license_family: GPL
+  license: MIT
+  license_family: MIT
   license_file: LICENSE
 
 extra:
